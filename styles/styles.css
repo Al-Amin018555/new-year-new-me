@@ -11,18 +11,21 @@ body {
     color: #005FAC;
     padding: 20px 35px;
 }
+
 /* main related styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
-    /* border: 3px solid tomato; */
+    border: 3px solid tomato;
 
-  
+
 }
-main section{
+
+main section {
     margin: 130px auto;
     /* border: 1px solid red; */
 }
+
 /* header related styles */
 .header {
     background-image: url('../images/banner/banner3.png');
@@ -34,10 +37,12 @@ main section{
     align-items: center;
     padding-right: 200px;
 }
-.header-container{
+
+.header-container {
     max-width: 525px;
     text-align: right;
 }
+
 .header-title {
     color: #FFFFFF;
     font-weight: 800;
@@ -51,29 +56,64 @@ main section{
 }
 
 /* failure related styles */
-.failure-container{
+.failure-container {
     display: flex;
     gap: 80px;
     align-items: center;
 
-    
+
 }
-.failure-container img{
+
+.failure-container img {
     width: 570px;
 }
-.failure-content{
+
+.failure-content {
     max-width: 416px;
 }
-.failure-title{
+
+.failure-title {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 0px;
 
 }
-.failure-description{
+
+.failure-description {
     color: #444343;
     font-weight: 400;
     font-size: 16px;
     margin-top: 30px;
+}
+
+/* my plans related styles */
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+.habits-container {
+    display: flex;
+    justify-content: space-around;
+}
+.habits img{
+    width: 92px;
+    text-align: center;
+    padding-left: 50px;
+}
+.habits-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.habits-description{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+
 }
