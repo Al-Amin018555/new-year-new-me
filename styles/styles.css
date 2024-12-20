@@ -1,0 +1,40 @@
+/* shared common styles */
+body {
+    font-family: "Work Sans", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-primary {
+    background: #FFFFFF;
+    border: none;
+    color: #005FAC;
+    padding: 20px 35px;
+}
+
+/* header realted styles */
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 200px;
+}
+.header-container{
+    max-width: 525px;
+    text-align: right;
+}
+.header-title {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 85px;
+}
+
+.header-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
