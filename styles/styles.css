@@ -30,7 +30,7 @@ main section {
 .header {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     background-size: cover;
     height: 80vh;
     display: flex;
