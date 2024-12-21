@@ -16,7 +16,7 @@ body {
 main {
     max-width: 1140px;
     margin: 0 auto;
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
 
 
 }
@@ -30,12 +30,15 @@ main section {
 .header {
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
+    border: 3px solid red;
+    background-size: cover;
+    height: 80vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 200px;
+    padding-bottom: 220px;
+    padding-top: 100px;
 }
 
 .header-container {
@@ -133,4 +136,53 @@ main section {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 40px;
+}
+
+/* footer related styles */
+footer{
+    margin-top: 130px;
+    /* border: 5px dotted tomato; */
+    background: #151414;
+}
+.footer-container{
+    display: flex;
+    gap: 200px;
+    /* border: 3px solid red;   */
+    padding: 130px 230px;
+}
+.footer-column{
+    /* border: 3px dashed green; */
+    width: 50%;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-description, .contact-info{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+.social-links a{
+    margin-right: 20px;
+}
+.subscribe{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+.footer-column input{
+    width: 50%;
+    color: #F3F3F3;
+    background: #151414;
+    padding: 10px;
+}
+.subscribe-btn{
+    background: #005FAC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px 25px;
 }
